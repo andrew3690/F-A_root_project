@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('run/',include('Orchestr.urls'))
+    path('orchestrator/',include('Orchestr.urls'))
 ]

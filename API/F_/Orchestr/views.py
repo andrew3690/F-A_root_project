@@ -7,7 +7,7 @@ from .forms import RegisterRun
 from .models import Run
 
 class LoginView(TemplateView):
-    template_name='home/auth/login.html'
+    template_name='F_/templates/home/auth/login.html'
 
     def post(self, request,*args, **kwargs):
         username = request.POST.get('username')

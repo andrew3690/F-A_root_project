@@ -6,8 +6,8 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 app_name = 'orches'
 
 urlpatterns= [
-    path('login/',views.LoginView.as_view(),name='login'),
-    path('logout',views.LogoutView.as_view(),name='logout'),
+    path('',views.LoginView.as_view(),name='login'),
+    path('logout/',views.LogoutView.as_view(),name='logout'),
 
     path('home/',views.RunListView.as_view(),name='home'),
     path('home/createrun/',views.RunCreateView.as_view(),name='create'),

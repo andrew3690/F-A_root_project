@@ -1,2 +1,6 @@
+# archives
 .sqlite3
 .pyc
+
+# Files
+/__pycache__
